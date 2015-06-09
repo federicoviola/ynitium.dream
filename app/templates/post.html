@@ -10,7 +10,6 @@
 {% if current_user.can(Permission.COMMENT) %}
 <div class="comment-form">
     {{ wtf.quick_form(form) }}
-
 {% endif %}
 {% include '_comments.html' %}
 </div>
