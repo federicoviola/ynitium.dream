@@ -1,3 +1,11 @@
+.navbar .brand {
+max-height: 40px;
+overflow: visible;
+padding-top: 0;
+padding-bottom: 0;
+}
+.navbar a.navbar-brand {padding: 9px 15px 8px; }
+
 .profile-thumbnail {
     position: absolute;
 }
